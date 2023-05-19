@@ -21,6 +21,7 @@ import Cleaning from "./assets/img/Cleaning services.svg";
 import Restaurant from "./assets/img/Restaurant.svg";
 import Wardrobe from "./assets/img/Wardrobe.svg";
 import Smoking from "./assets/img/Smoking area.svg";
+import Checkout from "./components/Checkout";
 
 export default function Home() {
   return (
@@ -155,6 +156,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="fixed right-12 z-40 -bottom-8">
+        <Checkout />
+      </div>
     </main>
   );
 }
